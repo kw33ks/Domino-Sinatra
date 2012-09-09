@@ -54,31 +54,16 @@ body {
     margin-bottom: 20px;
 }
 
-#log_track {
+.step {
 	background-color: #777777;
 	width:320px;
 	height:400px;
 	float:left;
-	margin-right: 10px;
 	position: relative;
 }
 
-#mission {
-	background-color: #777777;
-	width:320px;
-	height:400px;
-	float:left;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-#request {
-	background-color: #777777;
-	width:320px;
-	height:400px;
-	float:left;
-	margin-left: 10px;
-	position: relative;
+.left-margin {
+	margin-left: 20px;
 }
 
 img{
