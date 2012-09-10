@@ -7,7 +7,8 @@ header {
 ul {
 	list-style-type: none;
 	text-align: center;
-	font-size: 20;
+	font-size: 15;
+	color: CCCCCC;
 }
 
 li{
@@ -16,14 +17,34 @@ li{
 	margin-right: 40px;
 }
 
-#sign_in{
-	text-align: right;
-	margin-right:0px;
-	margin-bottom: 10px;
+ .leftcolumn{
+    display:block;
+    float:left;
+    text-align:left;
+  }
+
+.rightcolumn{
+    display:block;
+    float:right;
+    text-align:right;
+    margin-right: 10px;
 }
 
-#sign_in:hover{ 
-	color: #AAAAAA;
+.centercolumn{
+    text-align:center;
+}
+
+span{
+	display:inline;
+	}
+
+#navtop{
+	text-align: right;
+	line-height: 70px;
+	margin-right:0px;
+	height:70px;
+	width: 1000px;
+	background-color: #555555;
 }
  
 #banner {
@@ -39,25 +60,62 @@ h2{
 	text-align: center;
 }
 
+h3{
+	text-align: center;
+}
 
 
 body {
 	margin:0 auto;
-	margin-top:20px;
+	margin-top:10px;
 	width:1000px;
 }
 
 
+button{
+	display: block;
+	position: absolute;
+	right:50px;
+	bottom:20px;
+	width:200px;
+ 	margin: 0 auto;
+}
+
+#cardline{
+	position: relative;
+	height:180px;
+	width: 1000px;
+	margin-bottom: 10px;
+}
+
+#cardholder{
+ 	position: absolute;
+ 	right: 0;
+ 	top:0;
+ 	width:690px;
+ 	height:180px;
+ 	margin-bottom: 10px;
+ 	background-color: #666666;
+}
+
+#cardpic{
+ 	width:300px;
+ 	height:180;
+ 	background-color: gray;
+}
+
 #options {
+	position: relative;
     width:1000px;
     overflow: auto;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .step {
 	background-color: #777777;
 	width:320px;
-	height:400px;
+	height:425px;
 	float:left;
 	position: relative;
 }
@@ -76,9 +134,8 @@ img{
 form{
 	text-align: right;
 	position: absolute;
-	bottom: 10;
-	right: 35;
-
+	bottom: 40;
+	right: 55;
 }
 
 
@@ -86,5 +143,5 @@ form{
 	height: 80px;
 	width: 1000px;
 	padding-top: 30px;
-	background-color: #777777;
+	background-color: #FFFFFF;
 }
