@@ -1,0 +1,56 @@
+html {
+     background: url('../images/whitebkg.jpg') repeat;
+     background-color: transparent;
+     height: 100%
+ }
+
+body {
+	/*background: url('../images/whitebdy.jpg') repeat;*/
+	height: 100%;
+	background-color: transparent;
+}
+
+#leftnav {
+	width: 900px;
+}
+
+
+.container {
+	width:0px;
+}
+
+.span4 {
+/*background-color: gray;*/
+text-align: center;
+
+}
+
+
+.notices p {
+    line-height:20px !important;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-style: italic; 
+	font-weight: 200; 
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.navbar-form input{
+margin-top: 0px;
+};
+
