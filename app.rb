@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'  
 
 get '/track' do  
-  erb :track  
+  erb :track 
 end  
 
 
